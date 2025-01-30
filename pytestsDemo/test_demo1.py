@@ -11,3 +11,6 @@ def test_firstProgram(setup):
 def test_secondProgram():
     print("Good Morning")
 
+def test_crossBrowser(crossBrowser):
+    print(crossBrowser[1])
+

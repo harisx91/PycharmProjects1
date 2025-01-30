@@ -8,8 +8,10 @@
 #mark(tage) tests @pytest.mark.smoke and then run with -m
 #you can skip tests with @pytest.mark.skip
 #@pytest.mark.xfail (it will run but wont give report)
-#fixtures are used for setup and tear down methods for test cases - conftest files to generalize fixtures
+#fixtures are used for setup and tear down methods eneralize fixture for test cases - conftest files to ges
 #fixtures make it avail to all test cases
+#Data driven and parameterization can be done with return statements in tuple format
+#when you define fixture scope to class only, it will run once before class is initiated and at the end
 
 import pytest
 
