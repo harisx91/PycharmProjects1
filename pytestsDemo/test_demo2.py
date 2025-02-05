@@ -12,7 +12,11 @@
 #fixtures make it avail to all test cases
 #Data driven and parameterization can be done with return statements in tuple format
 #when you define fixture scope to class only, it will run once before class is initiated and at the end
+##py.test --html=report.html -s (Generating reports)
 
+##Get familiar with python framework interview questions
+
+##Logging what your script does {Debud, Info, warning, error, Critical]
 import pytest
 
 
