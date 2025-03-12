@@ -17,4 +17,3 @@ driver.minimize_window()
 driver.back()
 driver.refresh()
 driver.close()
-
