@@ -61,3 +61,28 @@ places = zip(cities, countries)
 
 print(places)
 print(list(places))
+
+scientists = [('Nikola', 'Tesla'), ('Charles', 'Darwin'), ('Marie', 'Curie')]
+given_names, surnames = zip(*scientists)
+print(given_names)
+print(surnames)
+
+letters = ['a', 'b', 'c']
+for index, letter in enumerate(letters):
+    print(index, letter)
+
+letters = ['a', 'b', 'c']
+for index, letter in enumerate(letters, 2):
+   print(index, letter)
+
+#List Comprehension
+#my_list = [expression for element in iterable if condition]
+numbers = [1, 2, 3, 4, 5]
+num_list = [x + 10 for x in numbers]
+print(num_list)
+
+#my_list = [expression for element in iterable if condition]
+words = ['Emotan', 'Amina', 'Ibeno', 'Sankwala']
+new_list = [(word[0], word[-1]) for word in words if len(word) > 5]
+print(new_list)
+
